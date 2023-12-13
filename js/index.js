@@ -44,5 +44,4 @@ function generateUniqueRandom() {
     console.log(previousRandom);
     document.getElementById('quote').innerHTML =quotes[previousRandom].quote;
     document.getElementById('auther').innerHTML =quotes[previousRandom].auther;
-    return previousRandom;
 }
