@@ -33,9 +33,8 @@
         }
     ]
     var previousRandom;
-    
-function generateUniqueRandom() {
     var currentRandom;
+function createRandomValue() {
     do {
         currentRandom = Math.floor(Math.random() * quotes.length);
     } while (currentRandom === previousRandom);
